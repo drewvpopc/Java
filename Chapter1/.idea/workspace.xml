@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee44913-da60-4e13-b02f-b76c9b7fad64" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eee44913-da60-4e13-b02f-b76c9b7fad64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1-Desktop/Chapter1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1-Desktop/GuiExample/GuiExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1-Desktop/Math/Math.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter1-Desktop/ScannerExample/ScannerExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EggsGUI/EggsGUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUICalcExample/GuiCalcExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Chapter 1 Review Questions.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,30 +30,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TtYHgAd1IaM59GYzhNsKXVo6ZV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ScannerProgram">
+  <component name="RunManager" selected="Application.EggsGUI">
     <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataTypes" />
       <module name="Math" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EggsGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EggsGUI" />
+      <module name="EggsGUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,6 +72,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GUICalcExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUICalcExample" />
+      <module name="GuiCalcExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScannerProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ScannerProgram" />
       <module name="Chapter1" />
@@ -57,21 +86,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SusanCantProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SusanCantProgram" />
-      <module name="GuiExample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EggsGUI" />
+        <item itemvalue="Application.GUICalcExample" />
         <item itemvalue="Application.ScannerProgram" />
         <item itemvalue="Application.DataTypes" />
         <item itemvalue="Application.FirstDialog" />
-        <item itemvalue="Application.SusanCantProgram" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -85,10 +120,35 @@
       <updated>1574280772541</updated>
       <workItem from="1574280776330" duration="3000000" />
       <workItem from="1574711676676" duration="2511000" />
+      <workItem from="1574795086435" duration="4412000" />
+      <workItem from="1574873634100" duration="3060000" />
+      <workItem from="1574967673968" duration="360000" />
+      <workItem from="1575314826357" duration="75000" />
+      <workItem from="1575315101112" duration="166000" />
+      <workItem from="1575315915652" duration="681000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="202" y="33" key="new project wizard" timestamp="1575315118008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="202" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1575315118008" />
   </component>
 </project>

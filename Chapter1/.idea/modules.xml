@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter1.iml" filepath="$PROJECT_DIR$/Chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EggsGUI/EggsGUI.iml" filepath="$PROJECT_DIR$/EggsGUI/EggsGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GuiCalcExample/GuiCalcExample.iml" filepath="$PROJECT_DIR$/GuiCalcExample/GuiCalcExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/GuiExample/GuiExample.iml" filepath="$PROJECT_DIR$/GuiExample/GuiExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Math/Math.iml" filepath="$PROJECT_DIR$/Math/Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScannerExample/ScannerExample.iml" filepath="$PROJECT_DIR$/ScannerExample/ScannerExample.iml" />
