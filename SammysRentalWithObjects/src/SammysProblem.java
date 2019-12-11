@@ -28,6 +28,13 @@ public class SammysProblem {
         //call the display method and point to console
         System.out.println(myRental.display());
 
+        iName = InputName();
+        iPhone = InputPhone();
+        iMin = InputMinutes();
+        myRental = new Rental(iName, iPhone, iMin);
+        myRental.calc();
+        System.out.println(myRental.display());
+
     }
     public static String InputName(){
         String iName;
