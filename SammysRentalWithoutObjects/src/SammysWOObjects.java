@@ -10,6 +10,11 @@ public class SammysWOObjects {
         int cHours, extraMin;
         double cost;
 
+        RentalRevised myRental;
+        myRental = new RentalRevised();
+
+        String str;
+        str = "Sup";
         //Get name
         iName = InputName();
 

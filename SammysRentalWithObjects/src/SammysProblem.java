@@ -8,54 +8,40 @@ public class SammysProblem {
     //global variables
     static Scanner Scanny = new Scanner(System.in);
 
-    public static void main(String[] argss){
-        //Get name
-        String iName = InputName();
+    public static void main(String[] args) {
 
-        //Get phone
-        String iPhone = InputPhone();
+        RentalRevised myRental;
+        myRental = new RentalRevised();
 
-        //Get minutes
-        int iMin = InputMinutes();
+        String str;
+        str = "Sup";
 
-        //Construct a Rental object with the input data(instantiation)
-        Rental myRental = new Rental(iName, iPhone, iMin);
 
+        input(myRental);
 
         //call the calc method
         myRental.calc();
 
         //call the display method and point to console
         System.out.println(myRental.display());
-
-        iName = InputName();
-        iPhone = InputPhone();
-        iMin = InputMinutes();
-        myRental = new Rental(iName, iPhone, iMin);
-        myRental.calc();
-        System.out.println(myRental.display());
-
     }
-    public static String InputName(){
-        String iName;
+
+    private static void input(RentalRevised myRental){
+        String iName, iPhone, iMin;
+        int cMinutes;
+
         System.out.println("Enter your name: ");
         iName = Scanny.nextLine();
-        return iName;
-    }
+        myRental.setName(iName);
 
-    public static String InputPhone(){
-        String iPhone;
-        System.out.println("Enter your phone number: ");
+        System.out.println("Enter your phone: ");
         iPhone = Scanny.nextLine();
-        return iPhone;
-    }
+        myRental.setPhone(iPhone);
 
-    public static int InputMinutes(){
-        String iMin;
-        int cMin;
-        System.out.println("Enter your Minutes: ");
+        System.out.println("Enter your minutes");
         iMin = Scanny.nextLine();
-        cMin = Integer.parseInt(iMin);
-        return cMin;
+        myRental.setMinutes(iMin);
+
+        System.out.println("");
     }
 }
