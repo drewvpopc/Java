@@ -19,17 +19,9 @@ public class RentalRevised {
     public String getIMin(){
         return iMin;
     }
-    public int getTotMinutes(){
-        return totMinutes;
-    }
-    public int getHours(){
-        return hours;
-    }
-    public int getExtraMinutes(){
-        return extraMinutes;
-    }
 
-    //featchers (setters)
+
+    // (setters)
     public void setName(String n){
         name = n;
     }
@@ -43,7 +35,7 @@ public class RentalRevised {
 
 
     public RentalRevised(){
-        name = "Daddy";
+        name = "Andrew Venenga";
         phone = "1-888-ihatemylife";
         totMinutes = 60;
     }
