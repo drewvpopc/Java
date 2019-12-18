@@ -77,15 +77,18 @@ public class Toy {
         oTotal = format.format(total);
 
     }
-
     public String motto(){
-        return ("Thank you for shopping at Walmart! Get your shit and get out!");
+        return ("Merry Christmas you filthy animal");
+    }
+    public String thanks(){
+        return ("Thank you "+ first_name + " for your purchase");
     }
     //receipt
     public String display(){
-        return (motto() +
+        return (thanks() +
                 "\nLast Name: "+ last_name +
                 "\nFirst Name: " + first_name +
-                "\nTotal Bill: " + oTotal );
+                "\nTotal Bill: " + oTotal +
+                "\n"+ motto() );
     }
 }

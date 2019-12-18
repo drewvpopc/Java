@@ -1,0 +1,25 @@
+1.
+A. 16	B.10
+C. 11	D. 8
+E. 4	F. 3
+G. 4	H. 29
+I. 4	J. 0
+
+2.
+A. False	B. True
+C. True		D. True
+E. True		F. False
+G. False	H. True
+I. True		J. False
+
+3.
+A. Type= byte, 4, Hopefully you dont have over 127 siblings
+B. Type= Char, C, Just trying to be realistic ;)
+C. Type= Long, 7,700,000,000, This number is above the max for a int soo you would have to use a long
+D. Type= Int, 327,200,000, This number doesnt cross the max for an int so it would be the best used
+E. Type= byte, 16, I would hope you don't have 127 people on a bus
+F. Type= Short, 1320, this is the max for a scabble score, goes above the required amount for a byte
+G. Type= Byte, 5, Typically MLB games dont go above 127
+H. Type= Short, 1492, Most events happened after the year 127
+i. Type= Byte, 4, Clear answer here
+J. Type= Short, 24,000, i mean you could also use a long, but please dont burn money
