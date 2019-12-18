@@ -19,12 +19,12 @@ public class SantasHelper {
 
         System.out.printf(myToy.display());
 
-
+        Toy.greeting = "\nMerry Christmas, you filthy animal";
     }
 
     private static void input(Toy myToy){
         String iFName, iLName, iToy, iToy2, iPrice, iPrice2;
-        int cPrice, cPrice2;
+        double cPrice, cPrice2;
 
         System.out.println("Enter your first name: ");
         iFName = scanner.nextLine();
@@ -40,7 +40,7 @@ public class SantasHelper {
 
         System.out.println("Enter the price of toy one: ");
         iPrice = scanner.nextLine();
-        cPrice = Integer.parseInt(iPrice);
+        cPrice = Double.parseDouble(iPrice);
         myToy.setPrice_toy1(cPrice);
 
         System.out.println("Enter second toy name: ");
@@ -49,7 +49,7 @@ public class SantasHelper {
 
         System.out.println("Enter the price of toy two: ");
         iPrice2 = scanner.nextLine();
-        cPrice2 = Integer.parseInt(iPrice2);
+        cPrice2 = Double.parseDouble(iPrice2);
         myToy.setPrice_toy2(cPrice2);
 
 

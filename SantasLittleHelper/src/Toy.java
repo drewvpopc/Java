@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -85,10 +86,15 @@ public class Toy {
     }
     //receipt
     public String display(){
+        DecimalFormat df = new DecimalFormat("'$'0.00");
         return (thanks() +
-                "\nLast Name: "+ last_name +
-                "\nFirst Name: " + first_name +
-                "\nTotal Bill: " + oTotal +
-                "\n"+ motto() );
+                "\n\tFirst Toy: " + toy1 +
+                "\n\tFirst Toy Price: " + (price_toy1) +
+                "\n\tSecond Toy: " + (toy2) +
+                "\n\tSecond Toy Price: "+ (price_toy2) +
+                "\n\tSubtotal: "+ (subtotal) +
+                "\n\tTax: " + (tax) +
+                "\nTotal Bill: " + (total)
+                );
     }
 }
