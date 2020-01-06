@@ -9,7 +9,7 @@ public class Toy {
     private String last_name;
     private String toy1;
     private String toy2;
-    private String oTotal;
+
     private double price_toy1;
     private double price_toy2;
     private double tax;
