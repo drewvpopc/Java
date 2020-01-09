@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Plz write something here when you are awake
+ * this project takes the price price of a corndog and snowcone and calculates out the total bill.
+ * Andrew Venenga 01/07/19
+ *
  */
 
 public class BeachBumbsProgram {

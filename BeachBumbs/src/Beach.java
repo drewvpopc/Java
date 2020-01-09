@@ -3,6 +3,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class Beach {
+    //declarations
     public static String greeting;
     private String beachname;
     private int snowcone_qty;
@@ -13,7 +14,7 @@ public class Beach {
     private double tax;
     private double subtotal;
     private double total;
-
+    //static prices
     private static final double TAX = .055;
     private static final double SCPRICE= 3.00;
     private static final double CDPRICE= 5.00;
