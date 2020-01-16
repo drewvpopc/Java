@@ -7,6 +7,8 @@ public class BasketBuild {
     private static String accessory_type;
     private static String state;
     private static String cus_type;
+    static DecimalFormat df = new DecimalFormat("'$'0.00");
+    static DecimalFormat df2 = new DecimalFormat("#%");
 
     public static String getBaskettype() {
         return baskettype;
@@ -54,12 +56,16 @@ public class BasketBuild {
 
     //receipt
     public String toString(){
-        DecimalFormat df = new DecimalFormat("'$'0.00");
-        return ("\n\tBasket Type: "+(baskettype) +
+
+
+        return ("\n\tCustomer Type: "+ (cus_type) +
+                "\n\tBasket Type: "+(baskettype) +
                 "\n\tAccessory Type: "+ (accessory_type) +
-                "\n\tCustomer Type: "+ (cus_type) +
                 "\n\tState: "+ (state) +
-                "\n\tPrice: " + (LongabergerProgram.price)
+                "\n\tSubtotal: "+ df.format(LongabergerProgram.basketAmount) +
+                "\n\tTax: "+ df.format(LongabergerProgram.tax) +
+                "\n\tDiscount: "+ df2.format(LongabergerProgram.cusDiscount) +
+                "\n\tTotal: " + df.format(LongabergerProgram.total)
         );
     }
 

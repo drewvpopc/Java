@@ -43,13 +43,29 @@ public class LongabergerProgram {
         }
         if (validCus_type == true ) {
             myBasket.setCus_type(cusType);
+            validBasket = true;
         }
-        else {
-                //call default constructor
-                System.out.println(defaultBasket.toString());
+        if (validBasket == false){
+            myBasket.setBaskettype(basketType);
+        }
+        if (validAccessory == false) {
+            myBasket.setAccessory_type(accessoryType);
+        }
+        if (validState == false) {
+            myBasket.setState(state);
+        }
+        if (validCus_type == false ) {
+            myBasket.setCus_type(cusType);
+            validBasket = false;
         }
         Calcs();
-        System.out.println(myBasket.toString());
+        if(validBasket == false) {
+            //call default toString
+            System.out.println(defaultBasket.toString());
+        } else {
+            System.out.println(myBasket.toString());
+        }
+
     }
 
     private static void input() {
