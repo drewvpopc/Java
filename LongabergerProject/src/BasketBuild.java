@@ -3,83 +3,64 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class BasketBuild {
-    //declarations
-    public static String greeting;
     private static String baskettype;
-    private static double price;
-    private String accessory_type;
-    private String state;
-    private String cus_type;
+    private static String accessory_type;
+    private static String state;
+    private static String cus_type;
 
-
-    //getters
-    public static String getGreeting() {
-        return greeting;
-    }
     public static String getBaskettype() {
         return baskettype;
     }
-    public static double getPrice(){
-        return price;
-    }
-    public String getAccessory_type() {
+    public static String getAccessory_type() {
         return accessory_type;
     }
-    public String getState() {
+    public static String getState() {
         return state;
     }
-    public String getCus_type() {
+    public static String getCus_type() {
         return cus_type;
     }
 
     //setters
-    public static void setGreeting(String greeting) {
-        BasketBuild.greeting = greeting;
-    }
     public static void setBaskettype(String baskettype) {
         BasketBuild.baskettype = baskettype;
     }
-    public static void setPrice(double price) {
-        BasketBuild.price = price;
+    public static void setAccessory_type(String accessory_type) {
+        BasketBuild.accessory_type = accessory_type;
     }
-    public void setAccessory_type(String accessory_type) {
-        this.accessory_type = accessory_type;
+    public static void setState(String state) {
+        BasketBuild.state = state;
     }
-    public void setState(String state) {
-        this.state = state;
+    public static void setCus_type(String cus_type) {
+        BasketBuild.cus_type = cus_type;
     }
-    public void setCus_type(String cus_type) {
-        this.cus_type = cus_type;
-    }
+
 
     //constructor
     //default
     public BasketBuild() {
         baskettype = "U";
-        price = 112.77;
         accessory_type = "A4";
         cus_type = "1";
         state = "IA";
     }
 
-    @Override
-    public String toString() {
-        return "BasketBuild{" +
-                "baskettype=" + baskettype +
-                ", accessory_type='" + accessory_type + '\'' +
-                ", state='" + state + '\'' +
-                ", cus_type='" + cus_type + '\'' +
-                '}';
-    }
-
     public BasketBuild(String baskettype, String accessory_type, String state, String cus_type) {
-        this.baskettype = baskettype;
-        this.accessory_type = accessory_type;
-        this.state = state;
-        this.cus_type = cus_type;
+        BasketBuild.baskettype = baskettype;
+        BasketBuild.accessory_type = accessory_type;
+        BasketBuild.state = state;
+        BasketBuild.cus_type = cus_type;
     }
 
-
-
+    //receipt
+    public String toString(){
+        DecimalFormat df = new DecimalFormat("'$'0.00");
+        return ("\n\tBasket Type: "+(baskettype) +
+                "\n\tAccessory Type: "+ (accessory_type) +
+                "\n\tCustomer Type: "+ (cus_type) +
+                "\n\tState: "+ (state) +
+                "\n\tPrice: " + (LongabergerProgram.price)
+        );
+    }
 
 }
