@@ -6,6 +6,7 @@ public class BasketBuild {
     //declarations
     public static String greeting;
     private static String baskettype;
+    private static double price;
     private String accessory_type;
     private String state;
     private String cus_type;
@@ -17,6 +18,9 @@ public class BasketBuild {
     }
     public static String getBaskettype() {
         return baskettype;
+    }
+    public static double getPrice(){
+        return price;
     }
     public String getAccessory_type() {
         return accessory_type;
@@ -35,6 +39,9 @@ public class BasketBuild {
     public static void setBaskettype(String baskettype) {
         BasketBuild.baskettype = baskettype;
     }
+    public static void setPrice(double price) {
+        BasketBuild.price = price;
+    }
     public void setAccessory_type(String accessory_type) {
         this.accessory_type = accessory_type;
     }
@@ -49,6 +56,7 @@ public class BasketBuild {
     //default
     public BasketBuild() {
         baskettype = "U";
+        price = 112.77;
         accessory_type = "A4";
         cus_type = "1";
         state = "IA";
@@ -70,27 +78,8 @@ public class BasketBuild {
         this.state = state;
         this.cus_type = cus_type;
     }
-    public static boolean isValidBasketType(String typebasket)
-    {
-        boolean isValid = false;
 
-        switch (baskettype)
-        {
-            case "C":
-                baskettype = "Cracker";
-            case "W":
-                baskettype = "Wildflower";
-            case "K":
-                baskettype = "Key";
-            case "M":
-                baskettype = "Magazine";
-            case "U":
-                baskettype = "Umbrella";
-                isValid = true;
-                break;
-            default:
-                System.out.println("Invalid Basket Type");
-        }
-        return isValid;
-    }
+
+
+
 }
