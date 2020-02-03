@@ -1,0 +1,85 @@
+----UserInfo--------------Instantiable Class--------
+String userId;
+String userPassword;
+
+//default constructor definition
+'Same name as class' (UserInfo)
+Has no parameters
+Assign value to userId
+Assign value to userPassword
+
+//parameterized/Overloaded constructor definition
+	Same name as class userInfo (userEnteredId, userEnteredPassword_)
+	this.userId = userEnteredId
+	this.userPassword = userEnteredPassword
+
+//Define getters and setteres here
+getUserId()
+	return userId
+
+setUserId(String userEnteredId)
+	this.userId = userEnteredId
+
+getUserPassword()
+	return userPassword
+	
+setUserPassword(String userEnteredPassword)
+	this.userPassword = userEnteredPassword
+	
+	
+	
+----UserEntryProgram----
+	Scanner inputScanner
+	UserInput userData
+
+//Define the main method
+	main (String[] args)
+		init()
+		do 
+		iOption = call displayMenu()
+		iOption
+			when "1"
+				call input()
+				call output()
+				break
+			when "3"
+				call closing(0
+				break
+			When *
+			call displayError()
+				break
+			while (iOption != 3)
+		
+//define displayMenu
+	String iOption
+	display "1 - Create New User"
+	display "3 - Exit"
+	display "enter your choice"
+	get iOption
+	
+		
+//define the init module
+	init()
+		instantiate scanner object
+		
+//input 
+	input()
+		boolean errorSw = true
+		String iUserId
+		while (errorSw)
+			Display "user Id Requirements"
+			Display "list of user id requirements"
+			Display "enter user id'
+			get iUserId
+			//Validate iUserId
+			if iUserId length >= 8 and <=12
+				if iuserId is 6 letters followed by 2 numbers
+					errorSw = False
+				else
+					Display "Login Id needs 6 letters followed by 2 numbers'
+					Display "press enter to continue"
+					Get return
+				else 
+					Display "Login id must be 8 - 12 characters in length"
+					Display "press enter to continue"
+					get return
