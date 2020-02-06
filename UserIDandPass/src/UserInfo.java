@@ -25,7 +25,7 @@ public class UserInfo {
     }
 
     public String toString(){
-        return ("\n\tYour info was correct!" +
+        return ("\n\tUser Created, Here is the information you provided." +
                 "\n\tUsername: "+ (userId) +
                 "\n\tPassword: "+ (password)
         );
